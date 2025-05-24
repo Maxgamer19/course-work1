@@ -9,7 +9,7 @@ import checkAdmin from './utils/checkAdmin.js';
 import * as UserController  from './controllers/UserController.js';
 import * as PostController  from './controllers/PostController.js';
 mongoose
-    .connect('mongodb+srv://admin:1054@cluster.2rlla.mongodb.net/blog?retryWrites=true&w=majority&appName=Cluster')
+    .connect('my personal database(sasi)')
     .then(()=> console.log('DATABASE OK'))
     .catch((err)=> console.log('DATABASE ERROR',err));
 
